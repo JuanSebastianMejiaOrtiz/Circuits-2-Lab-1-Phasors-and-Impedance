@@ -2,13 +2,20 @@
 private/
 .env
 
-# Logs
+# Logs and auxiliary files
 logs/
-*.out
 *.err
 *.raw
 *.log
 *.net
+*.aux
 
 # Build directory
 build/
+bin/
+
+# Output files
+*.out
+
+# Temporary files
+*.tmp
