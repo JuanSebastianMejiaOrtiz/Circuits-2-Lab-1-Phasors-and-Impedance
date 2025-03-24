@@ -1,0 +1,12 @@
+Lab 1: Phasors and Impedance of the RC Circuit
+v1 a 0 SIN(0 1 {f})
+r1 a b 1k
+c1 b 0 10nF
+
+.step param f list 2k 20k 200k
+.param T = 1/{f}
+.param tstart = 0
+.param tstop = 2*{T}
+
+.tran 0 {tstop} {tstart}
+.end
