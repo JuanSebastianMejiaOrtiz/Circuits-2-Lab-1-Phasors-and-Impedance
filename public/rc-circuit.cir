@@ -2,7 +2,7 @@ Lab 1: Phasors and Impedance of the RC Circuit
 * Authors: Juan Sebastian Mejia Ortiz, Emmanuel Garces Agudelo
 
 * Voltage Sources
-v1 a 0 SIN(0 1 {f})
+v1 a 0 SIN(0 1 {f} 0 0 90)
 
 * Resistors
 r1 a b 1k

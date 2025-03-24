@@ -1,3 +1,14 @@
 # Personal files
 private/
 .env
+
+# Logs
+logs/
+*.out
+*.err
+*.raw
+*.log
+*.net
+
+# Build directory
+build/
