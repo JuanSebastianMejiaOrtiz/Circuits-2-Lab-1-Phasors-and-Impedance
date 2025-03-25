@@ -13,9 +13,13 @@ logs/
 # Build directory
 build/
 bin/
+dist/
 
 # Output files
 *.out
 
 # Temporary files
 *.tmp
+
+# IDE's
+.vscode/
